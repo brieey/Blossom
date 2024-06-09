@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "VERA",
+    "slug": "VERA",
+    "version": "1.0.0",
+    "platforms": [
+      "ios"
+    ],
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "fonts": {
+      "Nunito-Regular": "./assets/fonts/Nunito-Regular.ttf"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+
+
+}
