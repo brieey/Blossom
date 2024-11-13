@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { View, Image, StyleSheet } from 'react-native';
-import FakeHomePage from './components/FakeHomePage';
+import HomePage from './components/Homepage';
+
+
 
 const App = () => {
   const [isSplashVisible, setIsSplashVisible] = useState(true);
@@ -20,7 +22,7 @@ const App = () => {
           <Image source={require('./assets/landingbg.png')} style={styles.splashImage} />
         </View>
       ) : (
-        <FakeHomePage/>
+        <HomePage/>
       )}
     </View>
   );
