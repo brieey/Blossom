@@ -1,18 +1,14 @@
 {
   "expo": {
-    "name": "VERA",
-    "slug": "VERA",
+    "name": "Blossom",
+    "slug": "blossom",
     "version": "1.0.0",
     "platforms": [
-      "ios"
+      "ios", 
+      "android"
     ],
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "fonts": {
       "Nunito-Regular": "./assets/fonts/Nunito-Regular.ttf"
     },
@@ -26,6 +22,4 @@
       "expo-font"
     ]
   }
-
-
 }
